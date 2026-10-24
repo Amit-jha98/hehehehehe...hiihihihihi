@@ -1,0 +1,52 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Frontend dependencies, builds and browser-test output
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+
+# Local tools, caches, previews and hosting metadata
+.tools/
+.cache/
+/artifacts/
+.vercel/
+.idea/
+.vscode/
+
+# Local secrets; keep the documented configuration example
+.env
+.env.*
+!.env.example
+
+# Generated sample
+/backend/data/sample_wind_jan2026.json
+
+# Supplied assignment documents are local reference material
+/*.docx
+
+# Logs, temporary files and operating-system metadata
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

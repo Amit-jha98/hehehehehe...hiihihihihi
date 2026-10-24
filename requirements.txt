@@ -1,0 +1,4 @@
+# Runtime dependencies
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+requests==2.34.2
