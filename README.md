@@ -134,7 +134,3 @@ Open **http://localhost:8000**. The image bundles the real dataset, serves the b
 For Vercel, use this repository root, the bundled real dataset and the included `vercel.json`. It builds React with `npm ci` and routes `/api/*` to FastAPI. Python 3.12 is declared in `.python-version`; select Node 22. No ingestion runs during build or function startup.
 
 Docker execution and hosted deployment have not been verified locally; no live deployment URL is claimed. The CI workflow includes a container build and startup check.
-
-## Files to push
-
-Commit source, tests, configuration, documentation, `frontend/package-lock.json` and the real Elexon JSON. `.gitignore` excludes environments, installed dependencies, local tools, caches, builds, browser outputs, logs, secrets, generated sample data and the supplied assignment document. `.env.example` remains included.
