@@ -28,6 +28,7 @@ blob-report/
 .vercel/
 .idea/
 .vscode/
+docs/
 
 # Local secrets; keep the documented configuration example
 .env
@@ -36,7 +37,7 @@ blob-report/
 
 # Generated sample
 /backend/data/sample_wind_jan2026.json
-
+    
 # Supplied assignment documents are local reference material
 /*.docx
 
